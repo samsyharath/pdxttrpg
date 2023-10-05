@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TTRPG Hub</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to TTRPG Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#stores">TTRPG Stores</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Content Section -->
+    <section id="about">
+        <h2>About TTRPG Hub</h2>
+        <p>
+            Welcome to TTRPG Hub, the inclusive gathering place for tabletop roleplaying game (TTRPG) enthusiasts! We're here to connect players of all types and backgrounds, ensuring everyone can enjoy the magic of storytelling and adventure.
+            At TTRPG Hub, we believe in inclusivity and diversity. We understand that every player is unique, and we aim to provide a safe and welcoming space for all. If you have any sensitivity issues or triggers, please let your Game Masters (GMs) know, and we'll work together to create an enjoyable and respectful gaming experience.
+            <br><br>
+            Our platform also offers scheduling assistance, making it easier for players to find and join games that match their interests and availability. Whether you're a seasoned player or new to the TTRPG world, you'll find a welcoming community here.
+            But we're not just about playing TTRPGs; we're all about the entire gaming ecosystem. TTRPG Hub is your source for local events, TTRPG stores, and talented artists. Discover exciting events, explore nearby businesses that cater to tabletop RPG players, and support local artists who bring fantasy worlds to life.
+            <br><br>
+            Join us in forging unforgettable stories, defeating epic monsters, and creating memories that will last a lifetime. Let's embark on adventures together, embrace diversity, and celebrate the creativity of the TTRPG community.
+        </p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <!-- Add upcoming event listings here -->
+    </section>
+
+    <!-- TTRPG Stores Section -->
+    <section id="stores">
+        <h2>TTRPG Stores</h2>
+        <p>Guardian Games<br>
+Type: Game Store<br>
+Address: 345 SE Taylor St, Portland, OR 97214<br>
+Details: A renowned game store offering a wide range of TTRPGs, board games, miniatures, and accessories.<br>
+<br>
+Red Castle Games<br>
+Type: Game Store<br>
+Address: 6406 SE Foster Rd, Portland, OR 97206<br>
+Details: A local game store specializing in TTRPGs, board games, and Magic: The Gathering.<br>
+<br>
+Cloud Cap Games<br>
+Type: Game Store<br>
+Address: 1226 SE Lexington St, Portland, OR 97202<br>
+Details: A neighborhood game store with a selection of TTRPGs and board games.<br>
+<br>
+Guardian Moon Emporium<br>
+Type: Game and Comic Store<br>
+Address: 3483 SE Hawthorne Blvd, Portland, OR 97214<br>
+Details: A store featuring comics, games, and TTRPG supplies.<br>
+<br>
+Floating World Comics<br>
+Type: Comic Book and Game Store<br>
+Address: 400 NW Couch St, Portland, OR 97209<br>
+Details: A unique store that caters to comic book enthusiasts and often features indie TTRPG materials.<br>
+<br>
+Rainy Day Games<br>
+Type: Game Store<br>
+Address: 18105 SW TV Hwy, Aloha, OR 97003<br>
+Details: A store specializing in board games, TTRPGs, and game events.<br>
+<br>
+Time Vault Games<br>
+Type: Game Store<br>
+Address: 1224 N 1st St, Silverton, OR 97381<br>
+Details: A TTRPG and card game store in the Portland area.<br>
+<br>
+Powell's Books<br>
+Type: Bookstore<br>
+Address: 1005 W Burnside St, Portland, OR 97209<br>
+Details: While known for books, Powell's often carries TTRPG rulebooks and related literature.<br>
+<br>
+Dice Age Games<br>
+Type: Game Store<br>
+Address: 5107 SE Powell Blvd, Portland, OR 97206<br>
+Details: A game store offering a variety of TTRPGs and board games.<br>
+<br>
+Bolt Action Gaming<br>
+Type: Game Store<br>
+Address: 2315 Main St, Vancouver, WA 98660 (Just across the river from Portland)<br>
+Details: A game store with TTRPGs, miniatures, and hobby supplies.</p>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register">
+    <h2>Register</h2>
+    <form id="registrationForm">
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit" id="registerButton">Register</button>
+    </form>
+</section>
+
+<script>
+    // JavaScript for handling user registration
+    document.getElementById("registrationForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the form from submitting normally
+
+        // Get user input
+        const username = document.getElementById("username").value;
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+
+        // Perform registration process here (e.g., send data to a server)
+
+        // Clear form fields after registration
+        document.getElementById("username").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("password").value = "";
+
+        // Display a success message or redirect to a new page
+    });
+</script>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 TTRPG Hub</p>
+    </footer>
+</body>
+</html>

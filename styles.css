@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: #0d1e36;
+    color: #fff;
+}
+
+header {
+    background-color: #ff4500; /* Deep Orange */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #191970; /* Midnight Blue */
+    color: #fff;
+}
+
+footer {
+    background-color: #ff4500;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the registration form with fantasy elements */
+#registrationForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#registrationForm input, #registrationForm button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#registrationForm button {
+    background-color: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registrationForm button:hover {
+    background-color: #ff6300; /* Slightly lighter orange on hover */
+}
+
+/* Decorative elements for the sections */
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Add some fantasy icons or images as section decorations */
+#about h2::before {
+    content: "\2720"; /* Unicode star character */
+    font-size: 24px;
+    display: block;
+    margin: 0 auto 10px;
+    color: #ff4500;
+}
+
+#events h2::before {
+    content: "\1F47E"; /* Unicode alien character */
+    font
